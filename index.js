@@ -5,11 +5,11 @@ function iterativeLog(array){
 }
 
 function iterate(callback) {
-  const cats = ["dog", "cat", "bird"]
+  const animals = ["dog", "cat", "bird"]
 
-  cats.forEach(callback)
+  animals.forEach(callback)
 
-  return cats
+  return animals
 }
 
 function doToArray(array, callback) {
